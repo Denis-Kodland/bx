@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(44, 43, 43);
+}
+
+.slider-wrap .bx-wrapper{
+    
+    margin: 0 auto;
+}
+
+.slider-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav > div a {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.slider-nav > div a.active {
+    border-bottom: 3px solid #000;
+}
